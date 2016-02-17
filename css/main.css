@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+      text-align: center;
+}
+/*ID vari*/
+
+#logonavbar{
+
+}
+
+/*background*/
+
+#base{
+    background-image: url(../Images/Logo_Sian_Mini_Navbar.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+/*fine background*/
+
+/*Menu*/
+.navbar-brand img{
+    margin-top: -5%;
+    padding-top: 0;
+    height: 50px;
+    width: 100px;
+}
+
+#navbarmain {
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.3);
+}
