@@ -1,26 +1,67 @@
 @charset "utf-8";
-
 body {
-      text-align: center;
+    text-align: center;
 }
+
+
 /*ID vari*/
 
-#logonavbar{
+#logonavbar {}
 
+#shadowlogo {
+    box-shadow: 0px -5px 10px 0px rgba(50, 50, 50, 0.3);
+    padding: 1%;
 }
+
+#borderpromozioni{
+outline: 1px solid black;    
+}
+
+.marginless{
+    padding: 0;
+}
+
+/*classi varie*/
+
+.menuselezione {}
+
+.treD {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    margin: 3%;
+}
+
 
 /*background*/
 
-#base{
+#base {
     background-image: url(../Images/Logo_Sian_Mini_Navbar.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 10%;
+    background-position: 50% 50%;
+    background-size: 80%;
 }
+
+#testobottomalign {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rowbotal {
+    position: relative;
+}
+
+
 /*fine background*/
 
+
 /*Menu*/
-.navbar-brand img{
+
+.navbar-brand img {
     margin-top: -5%;
     padding-top: 0;
     height: 50px;
