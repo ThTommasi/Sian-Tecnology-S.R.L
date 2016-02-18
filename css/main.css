@@ -17,13 +17,22 @@ html{
 
 /*ID vari*/
 
+#mapparent{
+        background-image: url(../Images/staticmap.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 18%;
+    background-position: 50% 50%;
+    background-size: 100%;
+    margin-top: -5%;
+}
+
 #mapcontainer{
-
+    
 }
 
-#mapcontainer iframe{
 
-}
 
 #logonavbar {}
 
